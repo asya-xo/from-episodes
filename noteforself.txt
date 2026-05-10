@@ -1,0 +1,2 @@
+1) install the 2 libraries we need: pip install pandas requests
+
