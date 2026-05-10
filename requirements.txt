@@ -1,0 +1,4 @@
+#file with info, lists pandas, requests
+
+pandas
+requests
