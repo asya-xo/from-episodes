@@ -1,4 +1,5 @@
-#file with info, lists pandas, requests
+#file with info, lists pandas, requests 
+#edit later
 
 pandas
 requests
