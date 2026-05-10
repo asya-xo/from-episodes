@@ -1,2 +1,7 @@
 1) install the 2 libraries we need: pip install pandas requests
-
+2) fetcher.py: uses requests library to call the Fandom API, featches all episodes, returns raw JSON data.
+3) expoerter.py: uses pandas to convert raw data into a dataframe, keeps only the data we want, and saves to episodes.csv
+4) main.py: imports both files, runs fetch then export 
+5) filter out category:season and mediawiki entries
+6) sort episodes by season and episode order
+7) drop pageid column, not needed

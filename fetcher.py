@@ -22,3 +22,20 @@ def fetch_episodes():
     data = response.json()
 
     return data
+
+#fetch details about episodes
+
+def fetch_episode_details(title):
+    url = "https://from.fandom.com/api.php"
+
+    params = {
+        "action": "query",
+        "titles": title,
+        "prop": "categories",
+        "format": "json"
+    }
+
+    response = requests.get(url, params=params)
+    data = response.json()
+
+    return data
